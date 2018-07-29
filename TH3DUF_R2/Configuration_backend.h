@@ -139,7 +139,7 @@
 #endif
 
 //TH3D Artillery Model Settings
-#if ENABLED(AR_FCR300)
+#if ENABLED(AR_EZ300)
   #ifndef MOTHERBOARD
     #define MOTHERBOARD BOARD_MKS_GEN_L
   #endif
@@ -1235,7 +1235,7 @@
 #if defined(USER_PRINTER_NAME)
   #define CUSTOM_MACHINE_NAME USER_PRINTER_NAME
 #else
-  #if ENABLED(AR_FCR300)
+  #if ENABLED(AR_EZ300)
     #define CUSTOM_MACHINE_NAME "TH3D Artillery"
   #elif ENABLED(EZABL_ENABLE)
     #define CUSTOM_MACHINE_NAME "TH3D EZABL"

@@ -45,7 +45,7 @@
 //===========================================================================
 // TH3D Artillery Options - Select Arduino Mega 2560 from Tools > Board
 //===========================================================================
-//#define AR_FCR300
+//#define AR_EZ300
 
 // EZABL Probe Mounts
 //#define CR10_VOLCANO
