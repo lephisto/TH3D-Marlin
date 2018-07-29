@@ -99,6 +99,8 @@
 //#define PETSFANG
 //#define CUSTOM_PROBE
 
+//#define CR10S_CRABL
+
 // Dual Extruder Options
 // This is for use with the TH3D CR-10S Board with dual extruder support.
 
@@ -514,6 +516,6 @@
 
 #include "Configuration_backend.h"
 
-#define UNIFIED_VERSION "TH3D U1.R1.10"
+#define UNIFIED_VERSION "TH3D U1.R1.10 crabl"
 
 #endif // CONFIGURATION_H
