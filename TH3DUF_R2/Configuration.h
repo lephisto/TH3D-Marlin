@@ -541,6 +541,6 @@
 #include "Configuration_backend.h"
 
 #define UNIFIED_VERSION "TH3D U1.R2.1.BETA"
-// LAST MODIFIED 072818 @ 1940 CST
+// LAST MODIFIED 072818 @ 2150 CST
 
 #endif // CONFIGURATION_H
