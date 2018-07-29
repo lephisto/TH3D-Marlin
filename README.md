@@ -2,6 +2,10 @@ This is a Modification of the TH3D Fork of the Marlin Firmware for 3D Printers.
 
 It enables the use of the Stock ABL Sensors shipped by Creality.
 
+To enable it just uncomment:
+
+//#define CRABL
+
 Tested only with the CR10S yet, but should work with any Creality Printer that
 uses the Z-Stop as Interface.
 
