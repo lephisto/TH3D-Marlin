@@ -141,7 +141,7 @@
 //TH3D Artillery Model Settings
 #if ENABLED(AR_FCR300)
   #ifndef MOTHERBOARD
-    #define MOTHERBOARD BOARD_MKS_13
+    #define MOTHERBOARD BOARD_MKS_GEN_L
   #endif
 
   #define EZOUT_V2
@@ -211,7 +211,7 @@
 //FT-5 Model Settings
 #if ENABLED(FT5)
   #ifndef MOTHERBOARD
-    #define MOTHERBOARD BOARD_MKS_13
+    #define MOTHERBOARD BOARD_MKS_GEN_13
   #endif
 
   #if DISABLED(FT5_12864LCD)
