@@ -1,3 +1,15 @@
+This is a Modification of the TH3D Fork of the Marlin Firmware for 3D Printers.
+
+It enables the use of the Stock ABL Sensors shipped by Creality.
+
+Tested only with the CR10S yet, but should work with any Creality Printer that
+uses the Z-Stop as Interface.
+
+Keep in mind that due to poor Qulity Control you have to plug in the Sensor flipped.
+Maybe they will fix this in later releases.
+
+
+
 This is the baseline that TH3D Uses for their in house machines and customer releases.
 
 This is meant to be used with the TH3D line of products. You can check them out here. This may not work with other products so use at your own risk. Additional files and setup information available at www.TH3DStudio.com.

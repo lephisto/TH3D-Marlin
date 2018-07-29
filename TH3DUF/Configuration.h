@@ -67,7 +67,7 @@
 //===========================================================================
 // Creality CR-10S Options - Select Arduino Mega 2560 from Tools > Board
 //===========================================================================
-//#define CR10S
+#define CR10S
 //#define CR10S_MINI
 //#define CR10S_S4
 //#define CR10S_S5
@@ -99,7 +99,8 @@
 //#define PETSFANG
 //#define CUSTOM_PROBE
 
-//#define CR10S_CRABL
+// Uncomment this to configure for the use with Creality Stock ABL
+//#define CRABL
 
 // Dual Extruder Options
 // This is for use with the TH3D CR-10S Board with dual extruder support.
