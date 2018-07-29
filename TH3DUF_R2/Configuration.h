@@ -43,6 +43,21 @@
 // ONLY UNCOMMENT THINGS IN ONE PRINTER SECTION!!! IF YOU DO NOT FOLLOW THIS THEN YOU WILL GET ERRORS.
 
 //===========================================================================
+// TH3D Artillery Options - Select Arduino Mega 2560 from Tools > Board
+//===========================================================================
+//#define AR_FCR300
+
+// EZABL Probe Mounts
+//#define CR10_VOLCANO
+//#define CR10_V6HEAVYDUTY
+//#define CR10_OEM
+//#define CR10_FANG
+//#define TM3DAERO
+//#define TM3DAERO_EXTENDED
+//#define PETSFANG
+//#define CUSTOM_PROBE
+
+//===========================================================================
 // Creality CR-10 Options - Select Sanguino(1284P) from Tools > Board
 //===========================================================================
 //#define CR10
@@ -269,6 +284,9 @@
 // Folgetech FT-5 Options - Select Arduino Mega 2560 from Tools > Board
 //===========================================================================
 //#define FT5
+
+// If you are using a 12864 LCD instead of the stock LCD 2004 display uncomment the below line.
+//#define FT5_12864LCD
 
 // EZABL Probe Mounts
 //#define CUSTOM_PROBE
@@ -523,6 +541,6 @@
 #include "Configuration_backend.h"
 
 #define UNIFIED_VERSION "TH3D U1.R2.1.BETA"
-// LAST MODIFIED 072618 @ 1328 CST
+// LAST MODIFIED 072818 @ 1940 CST
 
 #endif // CONFIGURATION_H
